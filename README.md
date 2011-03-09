@@ -2,7 +2,7 @@ Unicorn, theme for WordPress
 ============================
 A clean theme for writers, and readers.
 
-![Unicorn](screenshot.png)
+![Unicorn](unicorn/screenshot.png)
 
 To do
 -----
