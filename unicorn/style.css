@@ -1,0 +1,131 @@
+/*  
+Theme Name: Unicorn
+Description: A clean theme for writers, and readers.
+Version: 0.1
+Tags:
+Author: Hugo Cornejo
+Author URI: http://hugocornejo.com/
+*/
+
+body {
+    color: #555;
+    font-family: Georgia, Palatino, Times New Roman, serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+#content h2, #content h1 {
+    font-size: 3.25em;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+
+#content h3 {
+    font-size: 1.25em;
+    margin-top: 2em;
+}
+
+#content h4, #content h5, #content h6 {
+    font-size: 1em;
+    margin-top: 2em;
+}
+
+#content ul {
+    list-style-type: square;
+}
+
+#content code {
+    background-color: #f7f7f7;
+    padding: 1px 5px;
+    font-size: 15px;
+}
+
+#content blockquote {
+    color: #666;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+a {
+	color: #c6006c;
+    text-decoration: none;	
+}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+
+#content h2 a {
+    color: #333;
+    text-decoration: none;
+    
+}
+
+.post img, object {
+	max-width: 620px;
+}
+
+#content .date {
+	color: #ccc;
+}
+
+#content .date p {
+	margin: 0;
+}
+
+.post {
+    margin-bottom: 0px;
+    font-size: 16px;
+    padding-top: 130px;
+}
+
+.next_button {
+	margin-top: 60px;
+	text-align: right;
+	
+}
+
+.next_button a, #blog_name a  {
+	color: #fff;
+	font-size: 16px;	
+	
+	padding: 6px 12px;
+	background-color: #c6006c;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+	#blog_name a {
+		position: absolute;
+		top: 0px;
+		
+		-webkit-border-top-right-radius: 0;
+		-webkit-border-top-left-radius: 0;
+		-moz-border-radius-topright: 0;
+		-moz-border-radius-topleft: 0;
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+	}
+	
+	.next_button a:hover, #blog_name a:hover {
+		text-decoration: none;
+		
+		-moz-box-shadow: 0 0 6px #666;
+		-webkit-box-shadow: 0 0 6px #666;
+		box-shadow: 0 0 6px #666;
+	}
+
+
+.footer {
+	margin-top: 100px;
+	color: #ccc;
+	font-size: 12px;
+}
+
+
