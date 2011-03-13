@@ -14,10 +14,10 @@
 <div id="content">
 
 <div class="post grid_8 prefix_2">
-    <h2>404: No encontrado</h2>
+    <h2><?php _e('404: Not found', 'unicorn'); ?></h2>
     
     <div>
-		<p>Lo sentimos, pero no podemos encontrar lo que est&aacute;s buscando.</p>
+		<p><?php _e('The page you requested could not be found', 'unicorn'); ?></p>
 	</div>
 </div>
 
